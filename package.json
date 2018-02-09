@@ -1,25 +1,25 @@
 {
-  "name": "facts-about-google",
-  "description": "Fun way to learn more about Google!",
-  "version": "0.0.1",
-  "private": true,
-  "license": "Apache Version 2.0",
-  "author": "Google Inc.",
-  "engines": {
-    "node": "~4.2"
-  },
-  "scripts": {
-    "lint": "semistandard --fix \"**/*.js\"",
-    "start": "node app.js",
-    "monitor": "nodemon app.js",
-    "deploy": "gcloud app deploy"
-  },
+  "name": "actionongoogle",
+  "version": "1.0.0",
+  "description": "This is a knowledgable Action that shares interesting facts about Google. The sample introduces advanced features like custom entities, contexts, and deep links. Use this Action and you might see that it even knows about a subject other than Google!",
+  "main": "app.js",
   "dependencies": {
     "actions-on-google": "^1.8.2",
     "body-parser": "^1.18.2",
     "express": "^4.16.2"
   },
-  "devDependencies": {
-    "semistandard": "^9.1.0"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sameerrai28/mygoogleaction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sameerrai28/mygoogleaction/issues"
+  },
+  "homepage": "https://github.com/sameerrai28/mygoogleaction#readme"
 }
